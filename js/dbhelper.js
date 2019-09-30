@@ -8,8 +8,8 @@ class DBHelper {
    * Change this to restaurants.json file location on your server.
    */
   static get DATABASE_URL() {
-    const port = 80; // Change this to your server port
-	const host = 'restaurantapp';
+    const port = 5500; // Change this to your server port
+		const host = 'localhost';
     return `http://${host}:${port}/data/restaurants.json`;
   }
 
