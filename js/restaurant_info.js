@@ -114,7 +114,8 @@ fillRestaurantHoursHTML = (operatingHours = self.restaurant.operating_hours) => 
     row.appendChild(day);
 
     const time = document.createElement('td');
-    time.innerHTML = operatingHours[key];
+    //replace method to provide a line break after a comma
+    time.innerHTML = operatingHours[key].replace(',', ',<wbr>');
     row.appendChild(time);
 
     hours.appendChild(row);
