@@ -1,6 +1,6 @@
 @charset "utf-8";
-/* CSS Document */
 
+/* CSS Document */
 * {
   box-sizing: border-box;
 }
@@ -51,6 +51,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   text-align: center;
   text-transform: uppercase;
 }
+
 /* ====================== Navigation ====================== */
 nav {
   width: 100%;
@@ -100,6 +101,8 @@ nav h1 a {
     color: #01447e;
     text-decoration: underline;
 }
+
+/* Hide 'skip to main' element and show it only on focus */
 a.skip-main {
   left:-999px;
   position:absolute;
@@ -125,12 +128,14 @@ a.skip-main:focus, a.skip-main:active {
   font-size:1.2em;
   z-index:999;
 }
+
 /* ====================== Map ====================== */
 #map {
   height: 415px;
   width: 100%;
   background-color: #ccc;
 }
+
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
   display: grid;
@@ -162,7 +167,6 @@ a.skip-main:focus, a.skip-main:active {
 }
 
 /* ====================== Restaurant Listing ====================== */
-  
 #restaurants-list {
   display: grid;
   grid-gap: 15px;
@@ -211,12 +215,10 @@ a.skip-main:focus, a.skip-main:active {
 }
 
 /* ====================== Restaurant Details ====================== */
-
 .inside header {
   width: 100%;
 }
 .inside #map-container {
-  /*background: blue none repeat scroll 0 0;*/
   height: 355px;
   width: 100%;
 }
@@ -284,7 +286,6 @@ a.skip-main:focus, a.skip-main:active {
 }
 #reviews-list li {
   background-color: #fff;
-  border: 2px solid #f3f3f3;
   display: block;
   list-style-type: none;
   margin: 0 0 30px;
@@ -298,6 +299,7 @@ a.skip-main:focus, a.skip-main:active {
   vertical-align: top;
 }
 
+/* ====================== Adjustments for bigger screens ====================== */
 
 @media screen and (min-width: 630px) {
   #restaurants-list {
