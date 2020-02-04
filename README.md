@@ -1,5 +1,6 @@
 # Restaurant Reviews App
 A project for Udacity Frontend Web Development Nanodegree course. The task was to convert a static webpage to a mobile-ready web application with standard accessibility features and a service worker for the seamless offline experience for users. The application filters restaurants in NYC according to the boroughs and cuisine type selected and provides reviews and opening hours for them.
+Through building real-life projects for Udacity Frontend Web Development Nanodegree, I learned to construct responsive websites using CSS, Flexbox and CSS Grid, develop interactive websites and UI (User Interface) applications using JavaScript and HTML, and connect a web application to backend server data using JavaScript.
 
 ## How to Install?
 1. Run any server locally using (ex. [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) - A VSCode Extension by Ritwick Dey)
